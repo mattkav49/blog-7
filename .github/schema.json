@@ -1,0 +1,10 @@
+{
+"type":"object",
+"properties":{
+  "title":{"type":"string"},
+  "author": {"type":"string"},
+  "date": {"const": "2023-03-09"},
+  "categories": {"const":"All that legal stuff..."}
+},
+"required":["title", "author", "date", "categories"]
+}
